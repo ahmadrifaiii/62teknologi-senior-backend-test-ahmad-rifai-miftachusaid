@@ -1,0 +1,13 @@
+
+-	Monitoring Tools: tools yang digunakan untuk memonitoring system yang sedang berjalan berfungsi dengan baik atau tidak.
+-	Caching: suatu bentuk penyimpanan di hardware atau system yang berfungsi menyimpan data sementara.
+-	Reliable: keadaan system atau kondisi system yang dapat diandalkan dari ketahanan dan kerusakan sehingga layak digunakan.
+-	Resilient: keadaan suatu service atau system yang mampu mengatasi ketahanan dalam perubahan, kesalahan, dan kerusakan infrastruktur.
+-	Scalable: keadaan service atau system yang dapat berubah dalam menghadapi penambahan pengguna atau user dan penambahan volume.
+-	Low latency: waktu yang dibutuhkan data dari asal sampai tujuan dengan diukur dalam satuan mili detik sangat kecil.
+-	Concurrency: kemampuan suatu system untuk dapat menangani banyak thread atau request.
+-	SOLID principle: fondasi utama dalam mengembangkan code program agar lebih mudah dimengerti, dikelola, dan dikembangkan.
+-	SDLC: kependekan dari System Development Life Cycle, merupakan cara atau siklus perputaran dalam mengembangkan suatu system yang bertujaun menyelesaikan masalah secara efektif.
+-	OWASP: kependekan dari Open Web Application Security Project, tempat dimana berkumpulnya komunitas Open Source, untuk mengembangkan, membeli, dan maintenance system yang dapat dipercaya.
+-	Service Container: system yang di wrap atau dikemas untuk dapat dibagikan dan dari sisi resource.
+-	Clean Code: merupakan bentuk format source code system yang rapi,  bersih, dan mudah difahami oleh developer lain.

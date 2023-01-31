@@ -1,0 +1,235 @@
+info:
+  contact: {}
+paths:
+  /api/v1/business/init:
+    get:
+      consumes:
+      - '*/*'
+      description: Initialization Unit Business
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: interface
+      summary: Initialization Unit Business
+      tags:
+      - Business
+  /api/v1/product/create:
+    post:
+      consumes:
+      - '*/*'
+      description: get the status of server.
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: interface
+      summary: Create Product
+      tags:
+      - Product Management - Product
+  /api/v1/product/delete/{param}:
+    delete:
+      consumes:
+      - '*/*'
+      description: get the status of server.
+      parameters:
+      - description: Product Id
+        in: path
+        name: param
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: interface
+      summary: Delete Product
+      tags:
+      - Product Management - Product
+  /api/v1/product/detail/{param}:
+    get:
+      consumes:
+      - '*/*'
+      description: get the status of server.
+      parameters:
+      - description: Product Id
+        in: path
+        name: param
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: interface
+      summary: Detail of Produt
+      tags:
+      - Product Management - Product
+  /api/v1/product/list:
+    get:
+      consumes:
+      - '*/*'
+      description: get the status of server.
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: interface
+      summary: Get List Product
+      tags:
+      - Product Management - Product
+  /api/v1/product/update/{param}:
+    put:
+      consumes:
+      - '*/*'
+      description: get the status of server.
+      parameters:
+      - description: Product Id
+        in: path
+        name: param
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: interface
+      summary: Update Product
+      tags:
+      - Product Management - Product
+  /api/v1/system/health:
+    get:
+      consumes:
+      - '*/*'
+      description: get the status of server.
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: interface
+      summary: Get Health Information
+      tags:
+      - System
+  /api/v1/user/delete/{param}:
+    delete:
+      consumes:
+      - '*/*'
+      description: get the status of server.
+      parameters:
+      - description: User Id
+        in: path
+        name: param
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: interface
+      summary: Delete the User
+      tags:
+      - Identity Access Management - User
+  /api/v1/user/detail/{param}:
+    get:
+      consumes:
+      - '*/*'
+      description: get the status of server.
+      parameters:
+      - description: User Id
+        in: path
+        name: param
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: interface
+      summary: Detail of User
+      tags:
+      - Identity Access Management - User
+  /api/v1/user/list:
+    get:
+      consumes:
+      - '*/*'
+      description: get the status of server.
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: interface
+      summary: Get List User
+      tags:
+      - Identity Access Management - User
+  /api/v1/user/register:
+    post:
+      consumes:
+      - '*/*'
+      description: get the status of server.
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: interface
+      summary: Register User
+      tags:
+      - Identity Access Management - User
+  /api/v1/user/update/{param}:
+    put:
+      consumes:
+      - '*/*'
+      description: get the status of server.
+      parameters:
+      - description: User Id
+        in: path
+        name: param
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: interface
+      summary: Update User
+      tags:
+      - Identity Access Management - User
+  /migration:
+    get:
+      consumes:
+      - '*/*'
+      description: get the status of server.
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: interface
+      summary: Migration
+      tags:
+      - System Server
+swagger: "2.0"

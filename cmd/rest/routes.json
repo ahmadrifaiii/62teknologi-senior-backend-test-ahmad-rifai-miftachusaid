@@ -1,0 +1,47 @@
+[
+  {
+    "method": "GET",
+    "path": "/api/v1/business/detail/:param",
+    "name": "business-detail"
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/business/init",
+    "name": "business-initialize"
+  },
+  {
+    "method": "GET",
+    "path": "/docs/*",
+    "name": "github.com/swaggo/echo-swagger.EchoWrapHandler.func1"
+  },
+  {
+    "method": "GET",
+    "path": "/migration",
+    "name": "62tech.co/service/utl/database/migrate/mysql.Migration"
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/business/list",
+    "name": "business-list"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/business/update/:param",
+    "name": "business-update"
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/business/delete/:param",
+    "name": "business-delete"
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/system/health",
+    "name": "user-list"
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/business/create",
+    "name": "business-create"
+  }
+]

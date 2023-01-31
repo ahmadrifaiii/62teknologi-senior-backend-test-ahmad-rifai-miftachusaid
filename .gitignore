@@ -1,0 +1,9 @@
+__debug_bin
+vendor
+!.vscode/lauch.json
+.idea
+
+go.mod
+go.sum
+
+volumes
